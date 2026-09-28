@@ -1,0 +1,73 @@
+# ============================================================
+# ChronoLens
+# ============================================================
+
+# Virtual environments
+Chronolens/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+models/
+checkpoints/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Videos / audio
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# Runtime data
+data/*
+!data/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+# Retrieval artifacts
+*.faiss
+*.index
+*.npy
+*.npz
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+.gradio/
